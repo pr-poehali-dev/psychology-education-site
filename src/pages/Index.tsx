@@ -77,7 +77,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-orange-50">
+    <div className="min-h-screen bg-gradient-to-br from-yellow-50 via-orange-50 to-red-50">
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200 shadow-sm">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
@@ -173,14 +173,14 @@ const Index = () => {
 
           <Card className="overflow-hidden">
             <CardContent className="p-0">
-              <div className="bg-gradient-to-br from-blue-100 to-purple-100 p-8 md:p-12 relative min-h-[400px] flex items-center justify-center">
+              <div className="bg-gradient-to-br from-yellow-100 to-red-100 p-8 md:p-12 relative min-h-[400px] flex items-center justify-center">
                 <div className="absolute inset-0 opacity-10">
                   <svg className="w-full h-full" viewBox="0 0 800 600">
-                    <circle cx="400" cy="200" r="4" fill="#0EA5E9" />
-                    <circle cx="380" cy="210" r="4" fill="#0EA5E9" />
-                    <circle cx="450" cy="350" r="4" fill="#0EA5E9" />
-                    <circle cx="350" cy="320" r="4" fill="#0EA5E9" />
-                    <circle cx="340" cy="430" r="4" fill="#0EA5E9" />
+                    <circle cx="400" cy="200" r="4" fill="#B91C1C" />
+                    <circle cx="380" cy="210" r="4" fill="#B91C1C" />
+                    <circle cx="450" cy="350" r="4" fill="#B91C1C" />
+                    <circle cx="350" cy="320" r="4" fill="#B91C1C" />
+                    <circle cx="340" cy="430" r="4" fill="#B91C1C" />
                   </svg>
                 </div>
                 <div className="relative z-10 grid md:grid-cols-2 gap-6 w-full">
