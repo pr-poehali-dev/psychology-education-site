@@ -141,18 +141,18 @@ const Index = () => {
             <Card className="animate-scale-in hover:shadow-lg transition-shadow" style={{ animationDelay: '0.1s' }}>
               <CardHeader>
                 <Icon name="Brain" size={40} className="text-secondary mb-3" />
-                <CardTitle>Современные знания</CardTitle>
+                <CardTitle>Развитие мягких навыков</CardTitle>
                 <CardDescription>
-                  Актуальные программы по педагогике и психологии
+                  Коммуникация, эмпатия, работа в команде и лидерские качества
                 </CardDescription>
               </CardHeader>
             </Card>
             <Card className="animate-scale-in hover:shadow-lg transition-shadow" style={{ animationDelay: '0.2s' }}>
               <CardHeader>
                 <Icon name="Award" size={40} className="text-accent mb-3" />
-                <CardTitle>Практика</CardTitle>
+                <CardTitle>Профессиональная проба</CardTitle>
                 <CardDescription>
-                  Реальный опыт работы с детьми и педагогами
+                  Практический опыт работы в образовательных учреждениях
                 </CardDescription>
               </CardHeader>
             </Card>
